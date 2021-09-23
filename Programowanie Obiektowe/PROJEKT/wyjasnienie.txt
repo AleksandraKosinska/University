@@ -1,0 +1,30 @@
+W pliku chinczyk.py znajduje sie program gry planszowej
+
+Po uruchomieniu znajdujemy się w menu, gdzie możemy:
+- w opcjach wybrac ilosc graczy
+- uruchomic grę
+
+Po uruchomieniu gry aby przystąpić do rezegrania rundy należy:
+- nacisnac przyciskiem myszy na przycisk z napisem "rozegraj kolejke"
+- nastepnie pojawia się w tamtym miejscu przycisk do losowania kością
+- w zależności od wylosowanej liczby oczek następują różne wydarzenia
+
+1. Gdy wszystkie nasze pionki które są na planszy (czyli nie te które są w domku) znajdują się w bazie to mamy trzy próby na wylosowanie 6 oczek aby wyjsc z bazy
+
+2. Aby wybrać pionek którym chcemy się poruszyć należy na niego nacisąć
+	(jeśli pionek się nie porusza to znaczy, że nie może wykonać tego ruchu)
+
+3. Gdy po wylosowaniu oczek nie możemy wykonać żadnego ruchu to kolejka i tak idzie dalej
+
+4. Po wykonaniu ruchu akcji mamy kolejny rzut
+	Ruchy akcji:
+		- zbicie pionka
+		- wylosowanie 6
+		- wyjscie z bazy
+		- wejscie do domu
+
+5. Zbity pionek wraca do bazy
+
+6. Na jednym polu może stać conajwyżej 4 pionki
+
+7. Nie mozna zbić przeciwnika, jesli na tym polu stoją wiecej niz dwa jego pionki

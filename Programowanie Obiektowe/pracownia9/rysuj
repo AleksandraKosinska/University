@@ -1,0 +1,10 @@
+set title "Wykres funkcji"
+set datafile separator ' '
+set key autotitle columnhead
+set style data lines
+set xlabel "x"
+set ylabel "y"
+set xrange [5:50]
+set term png
+set output "wykres.png"
+plot 'wyniki' using 1:2 title "f(x)"
